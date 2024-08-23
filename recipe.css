@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    margin:50px auto;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.container img {
+    border-radius: 10px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+h1{
+    font-family: Young serif;
+    font-weight: 400;
+    width: 650px;
+    margin: 0px auto;
+}
+
+.main p{
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    width: 650px;
+    margin: 20px auto;
+}
+
+.prepT{
+    background-color: hsl(330, 100%, 98%);
+    width: 650px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.prepT h3{
+    font-family: Outfit;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+    margin: 20px;
+}
+
+.prepT ul{
+    margin-left:40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-family: Outfit;
+    color: hsl(24, 5%, 18%);
+}
+
+.prepT strong {
+    padding-left: 20px;
+}
+
+.ingred{
+    width: 650px;
+    margin: 20px auto;
+}
+
+.ingred h2{
+    font-family: Young serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingred ul{
+    margin-left:20px; 
+    margin-top: 20px;   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingred li{
+    padding-left: 16px;
+}
+
+.instruct{
+    width: 650px;
+    margin: 0px auto;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instruct h2{
+    font-family: Young serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    border-top: 1px solid hsl(30, 18%, 87%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.instruct ol{
+    margin-left:20px;   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 610px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+}
+
+.instruct ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.instruct li{
+    padding-left: 16px;
+}
+
+.nutri{
+    width: 650px;
+    margin: 20px auto;
+}
+
+.nutri h2{
+    font-family: Young serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 20px;
+}
+
+.nutri p{
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+.nutriTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutriTable td {
+    padding: 10px 0;
+    padding-left: 35px;
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutriTable td:last-child {
+    padding-right: 20px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+@media (max-width: 425px) {
+body {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: hsl(24, 5%, 18%);
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 350px;
+    border-radius: 0;
+}
+
+.container img {
+    width: 350px;
+    margin-top: 0;
+    border-radius: 0;
+}
+
+h1{
+    font-family: Young serif;
+    font-weight: 400;
+    width: 300px;
+    font-size: 30px;
+    margin: 0px auto;
+}
+
+.main p{
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.prepT{
+    background-color: hsl(330, 100%, 98%);
+    width: 300px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.prepT h3{
+    font-family: Outfit;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+    margin: 20px;
+} 
+
+.prepT ul{
+    margin-left:40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 240px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    border: 2px solid;
+}
+
+.prepT strong {
+    padding-left: 20px;
+}
+
+.prepT span{
+    padding-left: 20px;
+}
+
+.ingred{
+    width: 300px;
+    margin: 20px auto;
+}
+
+.ingred h2{
+    font-family: Young serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingred ul{
+    margin-left:20px; 
+    margin-top: 20px;   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.ingred li{
+    padding-left: 16px;
+}
+
+.instruct{
+    width: 300px;
+    margin: 0px auto;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instruct h2{
+    font-family: Young serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    border-top: 1px solid hsl(30, 18%, 87%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.instruct ol{
+    margin-left:10px;   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+}
+
+.instruct ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.instruct li{
+    padding-left: 16px;
+}
+
+.nutri{
+    width: 300px;
+    margin: 20px auto;
+}
+
+.nutri h2{
+    font-family: Young serif;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 20px;
+}
+
+.nutri p{
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.nutriTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutriTable td {
+    padding: 10px 0;
+    padding-left: 35px;
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutriTable td:last-child {
+    padding-right: 20px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+}
