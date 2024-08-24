@@ -51,7 +51,7 @@ h1{
 
 .prepT{
     background-color: hsl(330, 100%, 98%);
-    width: 650px;
+    max-width: 650px;
     border-radius: 10px;
     margin: 0px auto;
 }
